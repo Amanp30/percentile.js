@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 
-exports.cahnge = function (n1, n2, showpercent, lastdig = 2) {
+exports.change = function (n1, n2, showpercent, lastdig = 2) {
   var diff = n2 - n1;
   var increase = (diff / n1) * 100;
   if (showpercent) {
